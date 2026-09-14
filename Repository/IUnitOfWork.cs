@@ -12,4 +12,5 @@ public interface IUnitOfWork
     ISucursalRepository  Sucursal { get;  }
     
     Task<int> SaveChangesAsync();
+    
 }
