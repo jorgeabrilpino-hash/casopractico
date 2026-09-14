@@ -1,15 +1,18 @@
+using CasoPractico01.Models;
+
 namespace CasoPractico01.Repository;
 
 public interface IUnitOfWork
 { 
-    IClienteRepository Clientes { get;  }
-    IFacturaRepository Facturas { get;  }
-    IIngredientesRepository  Ingredientes { get;  }
-    IMenuRepository  Menus { get;  }
-    IMesaRepository Mesa { get;  }
-    IPedidoRepository  Pedido { get;  }
-    IReservaRepository  Reserva { get;  }
-    ISucursalRepository  Sucursal { get;  }
+    IGenericoRepository<Sucursal> Sucursal { get;  }
+    IGenericoRepository<Factura> Factura { get;  }
+    IGenericoRepository<Ingrediente> Ingrediente { get;  }
+    IGenericoRepository<Menu> Menu { get;  }
+    IGenericoRepository<Mesa> Mesa { get;  }
+    IGenericoRepository<Pedido> Pedido { get;  }
+    IGenericoRepository<Reserva> Reserva { get;  }
     
-    Task<int> SaveChangesAsync();
+    IGenericoRepository<Cliente> Cliente { get;  }
+    
+    Task Guardar();
 }

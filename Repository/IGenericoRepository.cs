@@ -2,21 +2,15 @@ using System.Linq.Expressions;
 
 namespace CasoPractico01.Repository;
 
-public interface IGenericoRepository
+public interface IGenericoRepository<T> where T : class
 {
-    public interface IGenerico<T> where T : class
-    {
-        Task<IEnumerable<T>> ObtenerTodos();
+    Task<IEnumerable<T>> GetAll();
 
-        Task<T?> ObtenerPorId(int id);
+    Task<T?> GetById(int id);
 
-        Task<IEnumerable<T>> Buscar(
-            Expression<Func<T, bool>> condicion);
+    Task Post(T entidad);
 
-        Task Agregar(T entidad);
+    void Put(T entidad);
 
-        void Actualizar(T entidad);
-
-        void Eliminar(T entidad);
-    }
+    void Delete(T entidad);
 }
