@@ -1,0 +1,24 @@
+# .NET
+bin/
+obj/
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Operating system
+.DS_Store
+Thumbs.db
