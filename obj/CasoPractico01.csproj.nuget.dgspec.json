@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HAPPY TEC\\RiderProjects\\CasoPractico01\\CasoPractico01\\CasoPractico01.csproj": {}
+    "C:\\Users\\fatux\\RiderProjects\\casopractico\\CasoPractico01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HAPPY TEC\\RiderProjects\\CasoPractico01\\CasoPractico01\\CasoPractico01.csproj": {
+    "C:\\Users\\fatux\\RiderProjects\\casopractico\\CasoPractico01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HAPPY TEC\\RiderProjects\\CasoPractico01\\CasoPractico01\\CasoPractico01.csproj",
+        "projectUniqueName": "C:\\Users\\fatux\\RiderProjects\\casopractico\\CasoPractico01.csproj",
         "projectName": "CasoPractico01",
-        "projectPath": "C:\\Users\\HAPPY TEC\\RiderProjects\\CasoPractico01\\CasoPractico01\\CasoPractico01.csproj",
-        "packagesPath": "C:\\Users\\HAPPY TEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HAPPY TEC\\RiderProjects\\CasoPractico01\\CasoPractico01\\obj\\",
+        "projectPath": "C:\\Users\\fatux\\RiderProjects\\casopractico\\CasoPractico01.csproj",
+        "packagesPath": "C:\\Users\\fatux\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatux\\RiderProjects\\casopractico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HAPPY TEC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fatux\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -39,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.303/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
